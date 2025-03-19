@@ -1,6 +1,5 @@
-beautifulsoup4
-bs4
-requests-html
+streamlit
 pandas
 requests
-streamlit
+beautifulsoup4
+requests-html
