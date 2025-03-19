@@ -1,10 +1,3 @@
-import os
-import subprocess
-import sys
-
-# Force install missing dependencies
-subprocess.run([sys.executable, "-m", "pip", "install", "beautifulsoup4", "requests-html"], check=True)
-
 import streamlit as st
 import pandas as pd
 import requests
