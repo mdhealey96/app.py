@@ -3,6 +3,16 @@ import pandas as pd
 import requests
 from urllib.parse import urljoin
 import time
+import sys
+import subprocess
+
+# Ensure dependencies are installed
+try:
+    import bs4
+except ImportError:
+    subprocess.run([sys.executable, "-m", "pip", "install", "beautifulsoup4"], check=True)
+    import bs4
+
 from bs4 import BeautifulSoup
 from requests_html import HTMLSession
 
